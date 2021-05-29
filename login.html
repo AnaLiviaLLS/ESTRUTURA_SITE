@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+		<title>Clotheyeasy's</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0, shrink-to-fit=yes">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap.min.css">
+    </head>
+    <body>
+		<nav class="navbar bg-dark">
+			<p class="text-warning font-weight-bold text-left" style="font-size: 18px;">ECON</p>
+			<p class="text-warning text-center" style="font-size: 18px;">Clotheyeasy's</p>
+			<p class="text-warning text-right" style="font-size: 18px;"></p>
+		</nav>
+		<form action="login.php" method="GET">
+<!----------------------------Inicio do Card-------------------------->
+			<div class="card mx-auto border-dark m-8 " style="max-width: 25rem;" >
+<!----------------------------Cabeca do Card-------------------------->
+				<div class="card-header p-2 m-2 bg-secondary text-white ">
+					<p class="font-weight-bold text-center " style="font-size: 36px;">Login</p>
+				</div>
+<!----------------------------Corpo do Card-------------------------->	
+				<div class="card-body  bg-transparent ">
+					<div class="form-group">
+						<label for="login">Seu Login</label>
+						<input type="text" class="form-control" name ="login" id="login" placeholder="Login" maxlength="20" required >
+					</div>
+					<div class="form-group">
+						<label for="senha">Sua Senha</label>
+						<input type="password" class="form-control" name ="senha" id="senha" placeholder="Senha" maxlength="16" required>
+					</div>
+					<div class="form-group form-check">
+						<input type="checkbox" class="form-check-input" id="Manter">
+						<label class="form-check-label" for="Manter">Manter-me logado</label>
+					</div>
+					<button type="submit" class="btn btn-dark btn-md text-warning border-white btn-block">Logar</button>
+				</div>
+<!----------------------------Rodape do Card-------------------------->
+				<div class="card-footer m-2 pb-0 bg-secondary text-white">
+					<p class="text-right"> Ainda não tem conta? 
+						<a class="btn btn-danger btn-sm" href="Cadastro.html" role="button">Cadastre-se</a>		
+					</p>
+				</div>
+			</div>
+<!----------------------------Fim do Card----------------------------->
+		</form>
+		<script type="text/javascript" src="../js/jquery-slim.min.js" ></script>
+		<script type="text/javascript" src="../js/popper.min.js" ></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+    </body>
+</html>

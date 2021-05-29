@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+	<title>ECON | Sistema de Estoque</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0, shrink-to-fit=yes">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap.min.css">
+  </head>
+    <body>
+		<nav class="navbar bg-dark">
+			<p class="text-warning font-weight-bold text-left" style="font-size: 18px;">ECON</p>
+			<p class="text-warning text-center" style="font-size: 18px;">Clotheyeasy's</p>
+			<p class="text-warning text-right" style="font-size: 18px;"></p>
+		</nav>
+	    <form action="cadastro.php" method="GET">
+<!----------------------------Inicio do Card-------------------------->  
+		<div class="card mx-auto border-dark " style="max-width: 25rem;" >
+<!----------------------------Cabeca do Card-------------------------->
+			<div class="card-header p-2 m-2 bg-secondary text-white ">
+				<p class="font-weight-bold text-center " style="font-size: 36px;">Cadastro</p>
+			</div>
+<!----------------------------Corpo do Card--------------------------->
+			<div class="card-body m-2 bg-transparent ">
+				<div class="form-group">
+					<label for="nome" >Seu Nome</label>
+					<input type="text" class="form-control" name ="nome" id="nome" placeholder="Nome" maxlength="50" required>
+				</div>
+				<div class="form-group">
+					<label for="login">Criar Login</label>
+					<input type="text" class="form-control" name ="login" id="login" placeholder="Login" maxlength="20" required>
+				</div>
+				<div class="form-group">
+					<label for="senha">Criar Senha</label>
+					<input type="password" class="form-control" name ="senha" id="senha" placeholder="Senha" maxlength="16" required>
+				</div>
+				<button type="submit" class="btn btn-dark btn-md text-warning border-white btn-block">Cadastrar</button>
+			</div>
+<!----------------------------Rodape do Card-------------------------->
+			<div class="card-footer pb-0 m-2 bg-secondary text-white">
+				<p class="text-right"> Ja tem conta? 
+					<a class="btn btn-danger btn-sm" href="login.html" role="button">Ir para Login</a>		
+				</p>
+			</div>
+<!----------------------------Fim do Card----------------------------->
+		</div> 
+	    </form>
+		<script type="text/javascript" src="../js/jquery-slim.min.js" ></script>
+		<script type="text/javascript" src="../js/popper.min.js" ></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+    </body>
+</html>
